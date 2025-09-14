@@ -1,38 +1,33 @@
 # Hostel Management System
 
-👉 Download the zip file
+A simple Hostel Management System using Node.js + MongoDB.
 
-👉 Extract the file and open **hostelManagement** folder in visual studio code
+---
 
-👉 create .env file in **hostelManagement** folder
+## Setup
 
-    NODE_ENV = development
-    PORT = 4050
-    MONGODB_URI = mongodb://localhost/hostel
-    MONGOOSE_DEBUG = true
-    JWT_SECRET = 29fe02c1-7de9-493a-b3c5-d33e56555a98
+# 1. Download & Extract
+- Download ZIP
+- Extract and open `hostelManagement` folder in VS Code
 
-👉 Run this command
-  
-    npm install
+# 2. Create `.env` in `hostelManagement` folder
+NODE_ENV=development
+PORT=4050
+MONGODB_URI=mongodb://localhost/hostel
+MONGOOSE_DEBUG=true
+JWT_SECRET=29fe02c1-7de9-493a-b3c5-d33e56555a98
 
-👉 Run this command for Start Project
-  
-    npm run start
+# 3. Install dependencies
+npm install
 
-👉 Run this command for Start Server
-  
-    npm run server
- 
-## Download Node JS : 
+# 4. Start Project
+npm run start   # frontend
+npm run server  # backend
 
-  **https://nodejs.org/en/download/**
-    
+---
 
-## Download MongoDB Compass : 
+## Requirements
+- Node.js 👉 https://nodejs.org/en/download/
+- MongoDB Compass 👉 https://www.mongodb.com/try/download/compass
 
-  **https://www.mongodb.com/try/download/compass**
-
- ## Youtube Link : 
- 
-  **https://youtu.be/W6DUKBNzUMQ**
+---
